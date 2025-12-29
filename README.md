@@ -1,16 +1,85 @@
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Habit Builder App
 
-Currently, two official plugins are available:
+A simple and user-friendly **Habit Builder** application that helps users create habits, track daily streaks, and stay consistent with their goals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*  Add new habits easily
+*  Track habit streaks
+*  Delete habits anytime
+*  Fast and responsive UI
+*  Built using modern React concepts
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+* **Frontend:** React.js
+* **State Management:** React Hooks (`useState`)
+* **Styling:** CSS 
+* **Version Control:** Git & GitHub
+
+---
+
+##  Demo
+
+https://github.com/user-attachments/assets/b9582827-2d99-4082-aea8-da88321d5ac2
+
+---
+
+##  Project Structure
+
+```
+habit-builder/
+│── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│── public/
+│── package.json
+│── README.md
+```
+
+---
+
+##  Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Ankitprashar04/habit-builder.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd habit-builder
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm start
+```
+
+---
+
+##  How It Works
+
+1. Enter a habit name in the input field
+2. Click **Add Habit**
+3. View your habit along with its streak
+4. Delete a habit when no longer needed
+
+
+
