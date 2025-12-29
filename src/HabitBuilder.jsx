@@ -45,13 +45,7 @@ export default function HabitBuilder() {
 
   return (
     <div
-      style={{
-        backgroundColor: "#111",
-        borderRadius: "12px",
-        padding: "20px",
-        color: "#fff",
-        Width: "400px",
-        margin: "30px auto"
+      style={{backgroundColor: "#111",borderRadius: "12px",padding: "20px",color: "#fff",Width: "400px",margin: "30px auto"
       }}
     >
       <h3 style={{ textAlign: "center", marginBottom: "15px" }}>
@@ -64,27 +58,13 @@ export default function HabitBuilder() {
         value={newHabit}
         onChange={(e) => setNewHabit(e.target.value)}
         style={{
-          width: "90%",
-          padding: "10px",
-          borderRadius: "6px",
-          border: "none",
-          outline: "none",
-          marginBottom: "10px",
-          paddingLeft: "8px",
+          width: "90%",padding: "10px",borderRadius: "6px",border: "none",outline: "none",marginBottom: "10px",paddingLeft: "8px",
         }}
       />
 
       <button
         onClick={addNewTask}
-        style={{
-          width: "90%",
-          padding: "10px",
-          backgroundColor: "green",
-          color: "white",
-          border: "none",
-          borderRadius: "6px",
-          cursor: "pointer",
-          marginBottom: "15px",
+        style={{width: "90%",padding: "10px",backgroundColor: "green",color: "white",border: "none",borderRadius: "6px",cursor: "pointer",marginBottom: "15px",
         }}
       >
         Add Habit
@@ -94,11 +74,7 @@ export default function HabitBuilder() {
         {habits.map((habit, index) => (
           <li
             key={index}
-            style={{
-              backgroundColor: "#222",
-              padding: "12px",
-              borderRadius: "8px",
-              marginBottom: "10px",
+            style={{backgroundColor: "#222",padding: "12px",borderRadius: "8px",marginBottom: "10px"
             }}
           >
             <strong>{habit.name}</strong>
@@ -108,23 +84,12 @@ export default function HabitBuilder() {
             Last Completed: {habit.lastCompleted || "Not complete"}
 
             <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                marginTop: "10px",
+              style={{display: "flex",justifyContent: "space-between",marginTop: "10px"
               }}
             >
               <button
                 onClick={() => completeHabit(index)}
-                style={{
-                  flex: 2,
-                  marginRight: "5px",
-                  padding: "8px",
-                  backgroundColor: "blueviolet",
-                  color: "white",
-                  border: "none",
-                  borderRadius: "6px",
-                  cursor: "pointer",
+                style={{flex: 2,marginRight: "5px",padding: "8px",backgroundColor: "blueviolet",color: "white",border: "none",borderRadius: "6px",cursor: "pointer"
                 }}
               >
                 Complete
@@ -132,15 +97,7 @@ export default function HabitBuilder() {
 
               <button
                 onClick={() => deleteHabit(index)}
-                style={{
-                  flex: 1,
-                  marginLeft: "5px",
-                  padding: "8px",
-                  backgroundColor: "red",
-                  color: "white",
-                  border: "none",
-                  borderRadius: "6px",
-                  cursor: "pointer",
+                style={{flex: 1,marginLeft: "5px",padding: "8px",backgroundColor: "red",color: "white",border: "none",borderRadius: "6px",cursor: "pointer"
                 }}
               >
                 Delete
